@@ -1,0 +1,142 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{longtable}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage{hyperref}
+
+\geometry{left=3cm, right=2cm, top=3cm, bottom=2cm}
+
+
+\pagestyle{empty}
+\pagenumbering{gobble} 
+
+% Título e folha de rosto
+\title{
+    \vspace{4cm}
+    \textbf{Fatec Zona Sul - Dom Paulo Evaristo Arns}\\
+    \vspace{1cm}
+    \textbf{Curso de Análise e Desenvolvimento de Sistemas}\\
+    \vspace{3cm}
+    \textbf{\large Uma Solução Prática para Avaliação de Performance em Interfaces de Programação de Aplicações
+}\\
+    \vspace{3cm}
+    \textbf{Danillo Martins Leal}\\
+    \textbf{Jean Marcelino de Lima}\\
+    \vspace{3cm}
+    São Paulo - SP\\
+    2025
+}
+\author{}
+\date{}
+
+\newcommand{\folhaderosto}{
+    \begin{titlepage}
+        \centering
+        \vspace*{2cm}
+
+        \textbf{Danillo Martins Leal}\\
+        \textbf{Jean Marcelino de Lima}\\[3cm]
+
+        {\large \textbf{Uma Solução para Avaliação de Desempenho e Escalabilidade em Interfaces de Programação de Aplicações (APIs)}}\\[2cm]
+
+        Trabalho de Conclusão de Curso apresentado à Faculdade de Tecnologia da Zona Sul – Dom Paulo Evaristo Arns, como requisito parcial para obtenção do título de Tecnólogo em Análise e Desenvolvimento de Sistemas.\\[1.5cm]
+
+        Orientador: Prof. Paulo Rogério da Silva\\[3cm]
+
+        São Paulo - SP\\
+        2025
+
+        \vfill
+    \end{titlepage}
+}
+
+\begin{document}
+
+\maketitle
+\folhaderosto
+
+\newpage
+\tableofcontents
+\newpage
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{4}
+\pagestyle{plain}
+
+% -------------------- Conteúdo ----------------------
+
+\section{Introdução}
+\subsection{Contextualização}
+\subsection{Problemática}
+\subsection{Objetivos}
+\subsubsection{Objetivo Geral}
+\subsubsection{Objetivos Específicos}
+\subsection{Justificativa}
+\subsection{Estrutura do Trabalho}
+
+\section{Referencial Teórico}
+\subsection{Testes de Performance e Carga}
+\subsection{Conceitos de Escalabilidade, Latência e Throughput}
+\subsection{Ferramentas Existentes para Teste de Carga}
+\subsubsection{JMeter}
+\subsubsection{k6}
+\subsubsection{Gatling}
+\subsubsection{Outras ferramentas}
+\subsection{Tecnologias Utilizadas}
+\subsubsection{Node.js / NestJS}
+\subsubsection{React (se houver frontend)}
+\subsubsection{Banco de Dados (PostgreSQL, MongoDB, etc.)}
+\subsubsection{Outras ferramentas e bibliotecas}
+
+\section{Metodologia}
+\subsection{Tipo de Pesquisa}
+\subsection{Procedimentos Metodológicos}
+\subsection{Processos de Desenvolvimento}
+\subsubsection{Levantamento de Requisitos}
+\subsubsection{Desenvolvimento Incremental ou Metodologia Ágil}
+\subsection{Ferramentas e Ambientes Utilizados}
+
+\section{Modelagem do Sistema}
+\subsection{Requisitos Funcionais e Não Funcionais}
+\subsection{Diagrama de Casos de Uso}
+\subsection{Diagrama de Classes}
+\subsection{Diagrama de Sequência}
+\subsection{Diagrama de Componentes}
+\subsection{Diagrama de Implantação (opcional)}
+
+\section{Desenvolvimento da Solução}
+\subsection{Arquitetura da Aplicação}
+\subsection{Backend – API e Executor de Testes}
+\subsection{Frontend (se houver)}
+\subsection{Banco de Dados}
+\subsection{Funcionalidades Implementadas}
+\subsubsection{Criação de Cenários de Teste}
+\subsubsection{Execução dos Testes de Carga}
+\subsubsection{Geração de Relatórios e Métricas}
+\subsection{Desafios e Soluções Encontradas}
+
+\section{Resultados e Discussões}
+\subsection{Execução dos Testes com a Ferramenta Desenvolvida}
+\subsection{Análise dos Resultados}
+\subsection{Comparação com Ferramentas Existentes (opcional)}
+\subsection{Limitações da Solução}
+
+\section{Conclusão}
+\subsection{Considerações Finais}
+\subsection{Contribuições do Trabalho}
+\subsection{Trabalhos Futuros}
+
+\section{Referências}
+
+\section{Apêndices e Anexos}
+% Inserir se necessário
+
+\end{document}
